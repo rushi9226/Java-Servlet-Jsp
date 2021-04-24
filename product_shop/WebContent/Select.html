@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Select Query</title>
+<style>
+div {
+  background-color: lightgrey;
+  width: 500px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<h3>Query 1</h3>
+<form name = "form1" action = "Select" method ="POST">
+        <label>Display the Product Table Data.</label><br><br> 
+            <input type ="Submit" name ="q1" value ="Fetch  Product Data">     
+        </form>   
+        <hr> 
+<h3>Query 2</h3>
+
+		
+        <form name = "form1" action = "Select" method ="POST">
+        <label>Display the customer first name of those customers who have placed an order.</label><br><br> 
+            <input type ="Submit" name ="q2" value ="Fetch Customer First Name">     
+        </form>
+        
+        <br>
+        <hr>
+        <h3> Query 3</h3>
+        <form name ="form2" action ="Select" method ="POST">
+            <table>  
+            <tr>             
+                <td>Product id: </td>
+                <td> <input type ="text" name ="prod_id" size ="25"></td>
+              <tr>
+            </table>
+            <br><input type ="Submit" name ="q3" value =" Fetch Product data">
+        </form>
+        
+        <hr> 
+        
+        <h3> Query 4</h3>
+        <form name ="form3" action="Select" method ="POST">
+            <table>
+                <tr>
+                    <td>QOH value : </td>
+                    <td><input type ="text" name ="quantity" size = "25" ></td>
+                </tr>
+            </table>
+            <br><input type = "Submit" name = "q4" value ="Fetch Inventory Data">
+        </form>
+        
+        <hr>
+        
+        <h3> Query 5</h3>
+        <form name ="form4" action ="Select" method ="POST">
+            <table>
+                <tr>
+                    <td>Customer ID :</td>
+                    <td><input type = "text" name = "customer_id" size ="25"></td>
+                </tr>
+            </table>
+            <br><input type ="Submit" name ="q5" value="Fetch Order data">
+        </form>
+</div>
+</body>
+</html>

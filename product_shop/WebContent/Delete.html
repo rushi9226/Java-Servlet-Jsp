@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Delete Queries</title>
+<style>
+div {
+  background-color: lightgrey;
+  width: 500px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<h3>Query 1</h3>
+        <form name ="form1" action ="Delete" method ="POST">
+            <table>
+                <tr>
+                    <td>Date of birth : </td>
+                    <td><input type = "date" name = "dob"></td>
+                </tr>    
+            </table>
+           <br> <input type ="Submit" name ="q1" value="Delete Data from Customers Table">
+        </form>
+        
+        <hr>
+        <h3>Query 2</h3>
+        <form name ="form2" action ="Delete" method ="POST">
+            <table>
+                <tr>
+                    <td>Location :</td>
+                    <td><input type = "text" name = "loc" size ="25"></td>
+                </tr>
+                                                                     
+            </table>
+            <br><input type ="Submit" name ="q2" value ="Delete Data from Inventory Table">
+        </form>
+        
+        
+        <hr>
+        <h3>Query 3</h3>
+        <form name ="form3" action ="Delete" method ="POST">
+            <table>
+                <tr>
+                    <td>Order total : </td>
+                    <td><input type = "text" name = "o_total" size ="25"></td>
+                </tr>
+                                                       
+            </table>
+            <br><input type ="Submit" name ="q3" value ="Delete Data from Orders Table">
+        </form>
+        
+        
+        <hr>
+        <h3>Query 4</h3>
+        <form name ="form3" action ="Delete" method ="POST">
+            <table>
+                <tr>
+                    <td>Supplier name : </td>
+                    <td><input type = "text" name = "s_name" size ="25"></td>
+                </tr>
+                                                        
+            </table>
+           <br> <input type ="Submit" name ="q4" value ="Delete Data from Product Info Table">
+        </form>
+        
+        
+         <hr>
+        <h3>Query 5</h3>
+        <form name ="form3" action ="Delete" method ="POST">
+            <table>
+                <tr>
+                    <td>Unit price : </td>
+                    <td><input type = "text" name = "u_price" size ="25"></td>
+                </tr>
+                
+                <tr>
+                    <td>Quantity : </td>
+                    <td><input type ="text" name ="qty" size ="25"></td>                                      
+                </tr>
+                                         
+            </table>
+            <br><input type ="Submit" name ="q5" value ="Delete Data from Order Items Table">
+        </form>
+		</div>
+    </body>
+</html>

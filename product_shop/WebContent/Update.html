@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Queries</title>
+<style>
+div {
+  background-color: lightgrey;
+  width: 500px;
+  border: 10px solid black;
+  padding: 50px;
+ margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<h3>Query 1</h3>
+        <form name ="form1" action ="Update" method ="POST">
+            <table>
+                <tr>
+                    <td>List Price : </td>
+                    <td><input type = "text" name = "l_price" size ="25"></td>
+                </tr>
+                
+                <tr>
+                    <td>Min Price : </td>
+                    <td><input type ="text" name ="m_price" size ="25"></td>
+                </tr>
+            </table>
+            <br><input type ="Submit" name ="q1" value="Update Product Info table">
+        </form>
+        
+        <hr>
+        <h3>Query 2</h3>
+        <form name ="form2" action ="Update" method ="POST">
+            <table>
+                <tr>
+                    <td>Customer id : </td>
+                    <td><input type = "text" name = "cust_id" size ="25"></td>
+                </tr>
+                
+                <tr>
+                    <td>Order status : </td>
+                    <td><select name ="status">
+                            
+                            <option value ="0" selected>Pending</option>
+                            <option value ="1" >Delivered</option>
+                         </select>
+                    </td>                       
+                </tr>
+                                         
+            </table>
+            <br><input type ="Submit" name ="q2" value ="Update Order table">
+        </form>
+        
+        
+        <hr>
+        <h3>Query 3</h3>
+        <form name ="form3" action ="Update" method ="POST">
+            <table>
+                <tr>
+                    <td>Product id : </td>
+                    <td><input type = "text" name = "p_id" size ="25"></td>
+                </tr>
+                
+                <tr>
+                    <td>Location : </td>
+                    <td><input type ="text" name ="loc" size ="25"></td>                                      
+                </tr>
+                                         
+            </table>
+            <br><input type ="Submit" name ="q3" value ="Update Inventory table">
+        </form>
+        
+        
+        <hr>
+        <h3>Query 4</h3>
+        <form name ="form3" action ="Update" method ="POST">
+            <table>
+                <tr>
+                    <td>Customer name : </td>
+                    <td><input type = "text" name = "c_name" size ="25"></td>
+                </tr>
+                
+                <tr>
+                    <td>Email : </td>
+                    <td><input type ="text" name ="email" size ="25"></td>                                      
+                </tr>
+                                         
+            </table>
+           <br> <input type ="Submit" name ="q4" value ="Update Customer table">
+        </form>
+        
+        
+         <hr>
+        <h3>Query 5</h3>
+        <form name ="form3" action ="Update" method ="POST">
+            <table>
+                <tr>
+                    <td>Product id : </td>
+                    <td><input type = "text" name = "p_id" size ="25"></td>
+                </tr>
+                
+                <tr>
+                    <td>Quantity : </td>
+                    <td><input type ="text" name ="qty" size ="25"></td>                                      
+                </tr>
+                                         
+            </table>
+            <br><input type ="Submit" name ="q5" value ="Update Order Items table">
+        </form>
+      </div>
+</body>
+</html>
