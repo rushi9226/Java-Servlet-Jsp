@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="book.student" table="student">
+       <meta attribute = "class-description">
+         This class contains the customer detail. 
+      </meta>
+      
+      <id name = "Sid" type = "int" column = "sid">
+        <generator class="native"/>
+      </id>
+      
+      <property name = "Sname" column = "sname" type = "string"/>
+      <property name = "Gender" column = "gender" type = "string"/>
+      <property name = "Dob" column = "dob" type = "string"/>
+      <property name = "Contactno" column = "contactno" type = "string"/>
+      <property name = "Email" column = "email" type = "string"/>
+      
+     
+  </class>
+</hibernate-mapping>

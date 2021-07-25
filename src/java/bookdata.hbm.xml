@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="book.bookdata" table="bookdata">
+       <meta attribute = "class-description">
+         This class contains the customer detail. 
+      </meta>
+      
+      <id name = "Bid" type = "int" column = "bid">
+        <generator class="native"/>
+      </id>
+      
+      <property name = "Cid" column = "cid" type = "int"/>
+      <property name = "Bname" column = "bname" type = "string"/>
+      <property name = "Language" column = "language" type = "string"/>
+      <property name = "P_year" column = "p_year" type = "string"/>
+      <property name = "Author" column = "author" type = "string"/>
+      
+     
+  </class>
+</hibernate-mapping>
